@@ -1,6 +1,18 @@
 # Ejercicio de Principios SOLID
 
-- [principios solid]:(https://duncan-mcardle.medium.com/solid-principle-5-dependency-inversion-javascript-7b054685f7cb)
+> Material teórico: [aquí.](https://duncan-mcardle.medium.com/solid-principle-5-dependency-inversion-javascript-7b054685f7cb)
+
+
+Contexto:
+
+> Supongamos que estás diseñando un sistema para una tienda en línea que vende productos electrónicos. Los productos electrónicos incluyen teléfonos móviles y computadoras portátiles. Cada producto tiene un precio y se pueden aplicar descuentos según ciertas reglas. Necesitas aplicar los principios SOLID en tu diseño para que sea mantenible y extensible en el futuro.
+
+
+Ejercicio:
+
+
+* Aplicar los distintos principios SOLID a la clase `Tienda` y a la clase `Producto` del código de ejemplo para que cumplan con los principios SOLID.
+
 
 ```ts
 class Producto {
@@ -63,5 +75,4 @@ console.log('Total a pagar:', tienda.calcularTotal());
 
 console.log('Aplicando descuento del 10%:');
 tienda.aplicarDescuento(0.1);
-
 ```
