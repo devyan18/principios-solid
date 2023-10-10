@@ -59,20 +59,4 @@ class Tienda {
     }
   }
 }
-
-const tienda = new Tienda();
-
-const producto1 = new Producto('Teléfono móvil', 500);
-const producto2 = new Producto('Computadora portátil', 1000);
-
-tienda.agregarProducto(producto1);
-tienda.agregarProducto(producto2);
-
-console.log('Listado de productos:');
-tienda.listarProductos();
-
-console.log('Total a pagar:', tienda.calcularTotal());
-
-console.log('Aplicando descuento del 10%:');
-tienda.aplicarDescuento(0.1);
 ```
